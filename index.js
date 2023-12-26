@@ -1,5 +1,5 @@
-function test() {
-  return "ok";
+function isOdd(num) {
+  return num % 2 !== 0;
 }
 
-export default test;
+export default isOdd;
